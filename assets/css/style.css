@@ -1,3 +1,4 @@
+/* style set to the body */
 body
 {
   background-color: rgb(160, 158, 155);
@@ -10,6 +11,7 @@ body
   min-height: auto;
 }
 
+/*  style the overall header */
 .header
 {
   display: flex;
@@ -21,6 +23,7 @@ body
 
 }
 
+/* styles the class nav in the header */
 .nav
 {
   display: inline-flex;
@@ -32,6 +35,7 @@ body
   color: white;
 } 
 
+/* syles the anchor tag with the nav section */
 nav a
 {
   background-color: #13293d;
@@ -41,13 +45,7 @@ nav a
   text-align: center;
 }
 
-.main
-{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2%;
-}
-  
+
 .about
 {
   font-family: cursive;
@@ -67,36 +65,50 @@ nav a
   border-radius: 70px;   
 }
 
+.main
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
 .projects
 {
   flex: 1 0 0;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   border-style: solid;
   border-width: 4px;
-  border-radius: 7px;
+  border-radius: 7px;  
+  margin: 17px;
 }
 
 .projectPhotoMain
 {
   max-width: 550px;
   max-height: 350px;
-  border-radius: 5px;  
+  border-radius: 5px;
+  margin: 15px;  
 }   
+
 .projectPhoto
 {
   max-width: 375px;
   max-height: 150px;
-  border-radius: 5px;  
+  border-radius: 5px;
+  margin: 15px;  
 }   
   
-.header 
+.tiles 
 {
   padding: 20px;
   background: #13293d;
   color: #fff;
-  border-radius: 5px;
-}
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+ }
   
 #pro
 {
