@@ -9,7 +9,14 @@ A portfolio of work to showcase my skills and talents to employers looking to fi
 None
 
 ## Usage
-Click on the top links to jump to sections within the online portfolio. The Resume and Project links at the bottom will pull up PDF Versions of the documents for easy use. 
+
+https://tnewnum.github.io/newnum-challenge-two/
+
+Click on the top links to jump to sections within the online portfolio. The Resume and Project links at the bottom will pull up PDF Versions of the documents for easy use.
+
+![image](https://user-images.githubusercontent.com/117390778/214280870-65248ed0-4da8-41b9-a834-36c2bca483d8.png)
+
+
 
 ## Credits
 None
