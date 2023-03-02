@@ -9,7 +9,7 @@ body
   background-color: rgb(160, 158, 155);
   display: flex;
   flex-direction: column;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 16pz;
   line-height: 1.3;
   min-height: 100vh;
@@ -49,11 +49,10 @@ nav a
 }
 
 
-.about
+#about
 {
   font-family: cursive;
   font-size: 18pt;
-  text-align: center;    
 }
 
 .myHeadshot {
@@ -62,12 +61,16 @@ nav a
 
 #headshot
 {
-  width: 30%;
+  width: 45%;
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   border-radius: 70px;   
+}
+
+p {
+  margin: 35px;
 }
 
 .main
@@ -77,6 +80,10 @@ nav a
   justify-content: space-around;
   margin-top: 2%;
   
+}
+
+.name {
+  font-size: 35px;
 }
 
 #projectsContainer {
@@ -120,7 +127,8 @@ nav a
 
 .projectPhoto
 {
-  max-width: 45%;  
+  width: 95%;
+  height: 75%;  
   border-radius: 5px;
   margin: 15px;  
 }   
@@ -142,9 +150,10 @@ h2,
 h3
 {
   text-align: center;
-  margin: auto;
+  margin: 15px;
 
 }
+
 
 
 .footer 
@@ -154,6 +163,10 @@ h3
   padding: 2%;
   background-color: #13293d;
   color: #fff;
+  }
+
+  .sasquatch {
+    width: 2%;
   }
 
 

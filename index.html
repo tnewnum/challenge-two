@@ -11,14 +11,14 @@
 <body>
         
     <header class="header">
-        <section>
+        <section class="name">
             <h1>Tommy Newnum</h1>           
         </section>
 
         <nav>
           <ul class="nav">
-            <a href="#about">About</a>
-            <a href="#projectsContainer">Project</a>
+            <a href="#about">About Me</a>
+            <a href="#projectTitle">My Projects</a>
             <a href="#pro">Professional Documents</a>
             <a href="#contact">Contact Me</a>            
           </ul>
@@ -27,36 +27,41 @@
 
     <section id="about">
         <h2 class="info">About Me</h2>        
-            <p>Born and Raised in Southwest Michigan. Upon graduating from Hartford High School in 2007, I attended Lake Michigan College for a year, prior to enlisting in the United States Army, and learning the skills to become an Air Traffic Controller.  After six years, One Tour to Iraq, and Two Tours to Afghanistan, it was time to move on from that chapter in my life. 
-            <p>After getting out of the Army, I became employed at a local Credit Union as a part time Teller. Shortly after that, I moved into a full time roll and never looked back. I have held seven different positions at two different credit unions over the last seven years.</p>
-            <p>I recently started a Full Stack Web Development through Michigan State University, in hopes of obtaining a new set of skills to change my career once again. I don’t know what the future holds, but I am excited for the journey ahead. 
-                </p>
-            <div class="myHeadshot">
-            <img id="headshot" src="./assets/images/20211225_092130.jpg" alt="unprofessional headshot">
-            </div>       
+        <div class="myHeadshot">
+        <img id="headshot" src="./assets/images/headshot.jpg" alt="unprofessional headshot">
+        </div>       
+            <p class="para">Hello, my name is Thomas Newnum and I am a finance professional turned Full Stack Web Developer. With over eight years of experience in Financial Services, I have gained a deep understanding of financial markets and analysis, as well as a keen attention to detail.</p>
+
+            <p>Recently, I completed a Full Stack Web Development program from Michigan State University, where I learned various programming languages and tools such as HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MSQL.</p>
+                           
+            <p>During the program, I honed my skills in designing and developing web applications from scratch, writing clean and maintainable code, and using various frameworks to enhance user experience.</p>
+                
+            <p>With my background in finance and newfound passion for web development, I am excited to apply my skills to create innovative and intuitive applications that solve real-world problems.</p>
+                
+            <p>When I'm not coding, you can find me backpacking, camping, hiking, and traveling in my van. I love exploring new places and pushing myself to new limits in the great outdoors. Thank you for taking the time to read my About Me section, and please feel free to contact me with any inquiries or opportunities.</p>
     </section> 
         
     <main class="main">
-        <h2>My Projects</h2>
+        <h2 id="projectTitle">My Projects</h2>
         <section id = "projectsContainer">
             <section class="mainProject">
-                <a class ="tiles" href="https://github.com/tnewnum/Entertainment-Wishlist.git">Entertainment Wishlist</a>
+                <a class ="tiles" href="https://tnewnum.github.io/Wishlist/">Entertainment Wishlist</a>
                 <img class='projectPhotoMain' src="./assets/images/project1.png" alt="screenshot of deployed application">
             </section>
 
             <section class="projects">
-                <a class ="tiles" href="https://github.com/tnewnum">Project2</a>
-                <img class='projectPhoto' src="./assets/images/02-portfolio-2.jpg" alt="computer screen">
+                <a class ="tiles" href="https://tnewnum.github.io/myTeamDirectory/">My Devloper Team</a>
+                <img class='projectPhoto' src="./assets/images/project2.png" alt="screenshot of deployed application">
             </section>
 
             <section class="projects">
-                <a class ="tiles" href="https://github.com/tnewnum">Project3</a>
-                <img class='projectPhoto' src="./assets/images/02-portfolio-3.jpg" alt="car toy">
+                <a class ="tiles" href="https://github.com/tnewnum/readMeGenerator">README.md Generator</a>
+                <img class='projectPhoto' src="https://www.makeareadme.com/images/open-graph-logo.png?v=20181203" alt="README place holder image">
             </section>
         
             <section class="projects">
-                <a class ="tiles" href="https://github.com/tnewnum">Project4</a>
-                <img class='projectPhoto' src="./assets/images/02-portfolio-4.jpg" alt="surfing">    
+                <a class ="tiles" href="https://github.com/tnewnum/sql-employeeTracker">Employee Tracker</a>
+                <img class='projectPhoto' src="https://user-images.githubusercontent.com/117390778/221558529-564b9ab3-4b5f-496b-9f11-7d14c35cced6.png" alt="surfing">    
             </section>
         </section>        
     </main>
@@ -64,22 +69,23 @@
         <section id = "pro">
             <h2>Professional Documents</h2>
             <ul>
-                <a href="./assets/images/Resume.pdf">Resume</a>
+                <a href="./assets/docs/resume.pdf">Resume</a>
                 <a href="#cover-letter">Cover Letter</a>
             </ul>
         </section>
         
         <section id = "contact">
-            <h3>Contact Me</h3>
+            <h3 class="contactMe">Contact Me</h3>
             <ul>
                 <p><strong>Email:</strong><a href="mailto:thomas.newnum@gmail.com">thomas.newnum@gmail.com</a></p>                  
                 <p><strong>GitHub:</strong> <a href="https://github.com/tnewnum">@tnewnum</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tnewnum/">Thomas Newnum</a></p>
             </ul>
         </section>
     
     <footer class="footer">
         <span>Thanks for visiting!</span>
-    </footer>
+        <img class="sasquatch" src='./assets/images/sasquatch.png'>
     
     
 </body>
