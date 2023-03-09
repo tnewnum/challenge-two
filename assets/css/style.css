@@ -72,6 +72,13 @@ a:hover {
 #projectsContainer {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+
+#projectsContainer img {
+  display: block; /* This makes the image a block element */
+  margin: 0 auto; /* This centers the image horizontally */
+
 }
 
 .mainProject,
@@ -103,10 +110,12 @@ a:hover {
 p {
   margin-left: 10em;
   margin-right: 10em;
+  margin-top: 1.5em;
 }
 
 h2 {
   font-size: 2.5em;
+  text-align: center;
 }
 
 .bottomStuff {
@@ -128,3 +137,13 @@ h2 {
   .sasquatch {
     width: 2%;
   } 
+
+  .me {
+    text-align: center;
+  }
+  
+  .me img {
+    display: block; /* This makes the image a block element */
+    margin: 0 auto; /* This centers the image horizontally */
+  }
+  
