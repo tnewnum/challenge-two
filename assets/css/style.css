@@ -1,6 +1,8 @@
  * {
   margin: 0;
   padding: 0;
+  margin-left: .5px;
+  margin-right: .5px;
 }
 
 body {
@@ -52,125 +54,67 @@ a:hover {
 
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   margin-top: 2%;
 }
 
-img {
-  width: 35%;
+#headshot {
+  width: 25%;
+  border-radius: 25% 10%;
+}
+
+.projectPhoto,
+.projectPhotoMain {
+  width: 75%;
+  border-radius: 50px;
 }
 
 #projectsContainer {
-
-
-}
-
-
-/*
-
-#projectsContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-items: center;
-  justify-content: space-evenly;
-}
-
-#myProjects {
   display: flex;
   flex-direction: column;
 }
 
-.mainProject
-{  
-  padding: 20px;
-  text-align: center;
-  border-style: solid;
-  border-width: 4px;
-  border-radius: 7%;  
-  margin: 17px;
-  flex-grow: 2;
-  width: 75%;
-}
-
-.projects
-{
-  padding: 20px;
-  text-align: center;
-  border-style: solid;
-  border-width: 4px;
-  border-radius: 4%;  
-  margin: 17px;
-  flex-shrink: 3;
-  width: 25%;
-}
-
-.projectPhotoMain
-{
-  max-width: 65%;
-  border-radius: 5px;
-  margin: 15px;  
-}   
-
-.projectPhoto
-{
-  width: 95%;
-  height: 75%;  
-  border-radius: 5px;
-  margin: 15px;  
-}   
+.mainProject,
+.projects {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-top: 2em;
   
-.tiles 
-{
-  padding: 20px;
-  background: #13293d;
-  color: #fff;
-  border-radius: 15px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainProject a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: .5em;
+}
+
+.projects a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: .5em;
+}
+
+#about {
   display: flex;
-  justify-content: space-between;
-}
-
-#about
-{
-  font-family: cursive;
-  font-size: 18pt;
-}
-
-.myHeadshot {
-  margin: 50px;
-}
-
-#headshot
-{
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 70px;   
+  flex-direction: column;
 }
 
 p {
-  margin: 35px;
+  margin-left: 10em;
+  margin-right: 10em;
 }
 
-
-
-.name {
-  font-size: 35px;
-}
-  
-#pro,
-#contact,
-h3
-{
-  text-align: center;
-  margin: 15px;
-
+h2 {
+  font-size: 2.5em;
 }
 
-
+.bottomStuff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5em;
+}
 
 .footer 
 {
@@ -183,11 +127,4 @@ h3
 
   .sasquatch {
     width: 2%;
-  } */
-
-
-
-
-  
- 
-
+  } 
