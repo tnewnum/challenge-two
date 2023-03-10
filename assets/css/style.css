@@ -50,6 +50,10 @@ body {
  font-size: x-large;
 }
 
+.titles:hover {
+ font-size: x-large;
+}
+
 .main {
   display: flex;
   flex-direction: row-reverse;
@@ -59,6 +63,12 @@ body {
 #headshot {
   width: 25%;
   border-radius: 25% 10%;
+}
+
+.fun {
+  font-weight: bold;
+  font-family: "Bitter", sans-serif;
+  font-size: larger;
 }
 
 .projectPhoto {
@@ -73,22 +83,26 @@ body {
   margin-right: 8em;
 }
 
+
 #projectsContainer img {
   display: block; /* This makes the image a block element */
   margin: 0 auto; /* This centers the image horizontally */
 
 }
 
-
 .projects {
   display: flex;
   flex-direction: column;
   font-weight: bold;
   margin-top: 2em;
-  
+  background-color: gray;
+  border-radius: 2em;
+  border: .25em solid #13293d; /* Set the border width, style, and color */
 }
+
+
 .content {
-  font-weight: bold;
+  font-weight: normal;
 
 }
 
@@ -106,8 +120,8 @@ body {
 }
 
 .para {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 8em;
+  margin-right: 8em;
   margin-top: 1.5em;
 }
 
@@ -121,6 +135,12 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   margin: 5em;
+}
+
+#pro a,
+#contact a{
+  text-decoration: none;
+  color: black;
 }
 
 .footer 
