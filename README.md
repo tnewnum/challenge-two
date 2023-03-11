@@ -21,7 +21,7 @@ There is no installation requried.
 Vist my Portfolio: https://tnewnum.github.io/portfolio/
 
 Click on the top links to jump to sections within the online portfolio. The Resume and Project links at the bottom will pull up PDF Versions of the documents for easy use.
-![image](https://user-images.githubusercontent.com/117390778/214280870-65248ed0-4da8-41b9-a834-36c2bca483d8.png)
+![image](https://user-images.githubusercontent.com/117390778/224460397-93f27102-f148-4fce-8d7a-3138ed0d879f.png)
 
 
 ## 🔒 License
