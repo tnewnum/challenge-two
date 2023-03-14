@@ -50,6 +50,10 @@ body {
  font-size: x-large;
 }
 
+h3 {
+  text-decoration: none;
+}
+
 .titles:hover {
  font-size: x-large;
 }
@@ -72,8 +76,7 @@ body {
 }
 
 .projectPhoto {
-  width: 75%;
-  
+  width: 75%;  
 }
 
 #projectsContainer {
@@ -153,7 +156,7 @@ h2 {
   }
 
   .sasquatch {
-    width: 2%;
+    width: 1%;
   } 
 
   .me {
