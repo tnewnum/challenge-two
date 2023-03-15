@@ -50,6 +50,7 @@ body {
  font-size: x-large;
 }
 
+
 #myProjects,
 .projects {
   text-align: center;
@@ -67,7 +68,8 @@ body {
 }
 
 .projectPhoto {
-  width: 45%;  
+  width: 45%; 
+  border-radius: 2em; 
 }
 
 
